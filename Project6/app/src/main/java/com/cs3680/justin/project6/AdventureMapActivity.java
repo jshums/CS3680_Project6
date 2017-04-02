@@ -11,20 +11,3 @@ public class AdventureMapActivity extends AppCompatActivity {
         setContentView(R.layout.activity_adventure_map);
     }
 }
-
-
-/*
-* Have two FOR statements that reads the two dimensional array.
-
-for (int i = 0; i < array.length; i++) {
-
-
-
-    for (int i = 0; i < array[].length; i++) {
-
-
-    }
-}
-
-http://stackoverflow.com/questions/5627580/2d-array-in-android
-*/
