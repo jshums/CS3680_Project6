@@ -4,14 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Hello World, DrawActivity"
-        />
-    <view class="com.cs3680.justin.project6.DrawView"
+    <view class="com.cs3680.justin.project6.MapDrawingView"
         android:id="@+id/drawing_area"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
 </LinearLayout>

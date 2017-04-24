@@ -1,30 +1,13 @@
 package com.cs3680.justin.project6;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.support.v4.app.Fragment;
 
-public class AdventureMapActivity extends AppCompatActivity {
+public class AdventureMapActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_adventure_map);
+    public Fragment createFragment () {
+        return AdventureMapFragment.newInstance();
     }
+
+
 }
-
-
-/*
-* Have two FOR statements that reads the two dimensional array.
-
-for (int i = 0; i < array.length; i++) {
-
-
-
-    for (int i = 0; i < array[].length; i++) {
-
-
-    }
-}
-
-http://stackoverflow.com/questions/5627580/2d-array-in-android
-*/
